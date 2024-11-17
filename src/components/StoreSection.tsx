@@ -6,7 +6,7 @@ const StoreSection: React.FC = () => {
     {
       name: 'VIP',
       icon: <Diamond className="w-8 h-8 text-cyan-300" />,
-      price: 'Fiyat Belirlenmedi',
+      price: '₺24.99',
       features: [
         'Yakında',
         '',
@@ -17,7 +17,7 @@ const StoreSection: React.FC = () => {
     {
       name: 'MVP',
       icon: <Crown className="w-8 h-8 text-yellow-400" />,
-      price: 'Fiyat Belirlenmedi',
+      price: '₺49.99',
       features: [
         'Yakında',
         '',
@@ -26,9 +26,9 @@ const StoreSection: React.FC = () => {
       ]
     },
     {
-      name: 'ULTRA',
+      name: 'SPONSOR',
       icon: <Rocket className="w-8 h-8 text-purple-400" />,
-      price: 'Fiyat Belirlenmedi',
+      price: '₺139.99',
       features: [
         'Yakında',
         '',
