@@ -1,4 +1,5 @@
-import React from 'react';
+import Background from './components/Background';
+import Header from './components/Header';
 import ServerIP from './components/ServerIP';
 import InfoBox from './components/InfoBox';
 import Particles from './components/Particles';
@@ -12,11 +13,11 @@ import StoreSection from './components/StoreSection';
 function App() {
   return (
     <div className="min-h-screen relative overflow-hidden">
-      
+      <Background />
       <Particles />
       
       <div className="relative z-10 container mx-auto px-4 py-8">
-        
+        <Header />
         <ServerStatus />
         <ServerIP />
         
