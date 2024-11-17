@@ -6,10 +6,7 @@ const InfoBox: React.FC = () => (
       Aqua Network'e Hoş geldin.
     </h2>
     <p className="text-gray-100 leading-relaxed">
-      Dive into an immersive Minecraft experience where adventure meets
-      community. Our server features unique gameplay mechanics, regular
-      events, and a friendly community. Join us today and become part of
-      something special!
+      Sunucuda Eğlenmeyi Unutma!
     </p>
     <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
       <div className="bg-white/5 p-4 rounded-lg">
