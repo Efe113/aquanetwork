@@ -1,6 +1,5 @@
 import React from 'react';
 import { Shield } from 'lucide-react';
-import Particles from './Particles';
 
 const Rules: React.FC = () => {
   const rules = [
