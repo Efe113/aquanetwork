@@ -23,7 +23,7 @@
   animation: fadeIn 0.5s ease-out;
 }
 
-/* Animation for fading in the "IP copied!" text */
+/* Keyframe for fade-in animation */
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -33,7 +33,7 @@
   }
 }
 
-/* Hover effect to enlarge the container slightly */
+/* Modern hover scale effect for button and container */
 button:hover {
   transform: scale(1.1);
   transition: transform 0.2s ease-in-out;
@@ -58,24 +58,35 @@ div:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-.transition-colors {
-  transition: background-color 0.3s ease;
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover color transitions */
+.hover\:bg-white\/10:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .text-white/10 {
   color: rgba(255, 255, 255, 0.1);
 }
 
-.text-cyan-300 {
-  color: #06b6d4;
-}
-
 .text-green-400 {
   color: #22c55e;
 }
 
-.hover\:bg-white\/10:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+.text-cyan-300 {
+  color: #06b6d4;
+}
+
+.text-white {
+  color: white;
+}
+
+/* Added focus outline style for better accessibility */
+button:focus {
+  outline: 2px solid #06b6d4;
+  outline-offset: 2px;
 }
 
 @keyframes logo-spin {
