@@ -1,5 +1,6 @@
 import React from 'react';
 import { Waves } from 'lucide-react';
+import Particles from './Particles';
 
 const Header: React.FC = () => (
   <div className="flex items-center justify-center mb-12">
