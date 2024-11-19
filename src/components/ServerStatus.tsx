@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 import { Signal } from 'lucide-react';
 
 const ServerStatus: React.FC = () => {
-  const [status, setStatus] = useState<'loading' | 'aktif' | 'kapalı'>('loading');
+  const [status] = useState<'loading' | 'aktif' | 'kapalı'>('loading');
 
   return (
     <div className="bg-gradient-to-r from-cyan-500 to-blue-500 p-8 rounded-lg shadow-xl max-w-md mx-auto border border-cyan-400/50 hover:border-cyan-500/80 transition-all ease-in-out duration-300 transform hover:scale-105">
